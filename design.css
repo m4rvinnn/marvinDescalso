@@ -1,0 +1,217 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #050404;
+            background: radial-gradient(circle, rgba(5, 4, 4, 1) 32%, rgba(29, 89, 253, 1) 50%, rgba(0, 0, 0, 1) 100%);;
+            padding: 20px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .card {
+            background: #050404;
+            background: linear-gradient(228deg, rgba(5, 4, 4, 1) 0%, rgba(29, 89, 253, 1) 95%);
+            border: 2px solid #000;
+            border-radius: 8px;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #f6f6f6;
+            margin: 0 3px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            border: 2px solid #000;
+            border-radius: 6px;
+            padding: 8px;
+            margin-bottom: 15px;
+            background-color: #fff4f4;
+        }
+
+        .border {
+            display: flex;
+            justify-content: space-around;
+            gap: 10px;
+            border: 3px solid blue;
+            border-radius: 4px;
+            flex:1;
+            gap:250px;
+            padding:150px;
+        }
+
+        .box {
+            justify-content: space-between;
+            align-items: center;
+
+            width: 300%;
+            height: 300px;
+        }
+        .image1{
+            border:5px solid;
+            border-radius: 6px;
+            display: block;
+            line-height: 0;
+        }
+        .text{
+            max-width: 500px;
+            color: white;
+            justify-content: space-around;
+
+
+        }
+        .message{
+            max-width: 500px;
+            color: aqua;
+        }
+        .vm{
+            border: 12px solid;
+            padding: 300px;
+        }
+        .nav1{
+        border: 3px solid;
+        color: white;
+        padding: 200px;
+        }
+
+
+        body{
+    background: #2d13bdb6;
+    background: linear-gradient(340deg, rgba(177, 19, 189, 1) 32%, rgba(0, 0, 0, 1) 100%, rgba(82, 0, 122, 1) 10%);
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.parent{
+    border: 3px solid purple;
+    padding: 10px;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;           
+    margin: 10px auto 0;  
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+    scroll-behavior: smooth;
+}
+
+.left-side,.right-side{
+    display:flex;
+    gap:px;
+    color:white;
+    grid-template-columns: repeat(5,1fr);
+    scroll-behavior: smooth;
+}
+
+.left-side > div,.right-side > div{
+    padding:10px;
+    scroll-behavior: smooth;
+    
+}
+
+.column{
+    border: 3px solid ;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 4px;
+    background-color: black;
+    padding: 250px;
+    gap: 300px;
+    flex: 1;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image{
+    border: 3px solid rgb(197, 187, 189);
+    border-radius: 6px;
+    display: block;
+    line-height: 0;
+}
+.text{
+  max-width: 500px;
+  color: rgb(23, 6, 6);
+}
+.Van{
+    border: 3px solid;
+    color: white;
+    padding: 200px;
+}
+.nav2{
+    border:3px solid;
+    padding:200px;
+    color: white;
+}
+.nav3{
+    border:3px solid;
+    padding:200px;
+    color: white;
+}
+.nav4{
+    border:3px solid;
+    padding:200px;
+    color: white;
+}
+.img1{
+    border: 3px solid ;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 4px;
+    background-color: black;
+    padding: 150px;
+    flex: 1;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-around;
+    background-image:url("images/gon.gif");
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+.Text{
+  max-width: 500px;
+  color: white;
+}
+
+
+
+
+
+

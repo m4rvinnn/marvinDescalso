@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Marvin Descalso">
+    <title>Document</title>
+<head>
+    <body>
+        <script>
+            let userName = prompt ("What is your role?" );
+            if (userName === "admin" || userName === "manager"  || userName === "user"){
+                let  password = prompt ("What is your password?");
+                if (password === "TheMaster" && userName === "admin" || password === "TopSecret123" && userName === "manager" || password === "UserPass" && userName === "user") {
+                    alert('Welcome!,' + userName);
+                }else if (password === null ) {
+                    alert ("Canceled");    
+                }else {
+                    alert ("wrong password");
+                } 
+                 
+                }
+                 else if (userName === "" || userName === null){
+                    alert("Canceled");   
+                }
+                else{
+                    alert("Access denied");
+                }
+                 
+            
+            
+
+        </script>
+    </body>
+</html>

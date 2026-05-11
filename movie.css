@@ -1,0 +1,95 @@
+
+.container{
+    margin: 100px 0 0 200px;
+    width: 80%;
+    height: 700px;
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+}
+.container img{
+    width:10%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 10px;
+    border:2px solid rgba(255,255,255,0.684)
+}
+
+.container img:hover{
+    width: 25%;
+    transition: all ease-in-out 0.5s;
+}
+body{
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.parent{
+    border: 3px solid purple;
+    padding: 10px;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;           
+    margin: 10px auto 0;  
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+    scroll-behavior: smooth;
+}
+
+.left-side,.right-side{
+    display:flex;
+    gap:px;
+    color:white;
+    grid-template-columns: repeat(5,1fr);
+    scroll-behavior: smooth;
+}
+
+.left-side > div,.right-side > div{
+    padding:10px;
+    scroll-behavior: smooth;
+     position: relative;
+    font-size: 18px;
+    transition: .5s ease
+    
+}
+
+.column{
+    border: 3px solid ;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 4px;
+    background-color: black;
+    padding: 250px;
+    gap: 10px;
+    flex: 1;
+    display: flex;
+    margin-top: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+    align-items: center;
+    justify-content: space-around;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+    
+}
+
+.image{
+    display: block;
+    line-height: 0;
+}
+.text{
+  max-width: 200px;
+  color:white;
+  padding-left: 700px;
+  text-align: center;
+}

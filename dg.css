@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.parent{
+    border: 3px solid white;
+    padding: 8px;
+    display: flex;
+    background-color: purple;
+    justify-content: space-between;
+    align-items: center;           
+    margin: 10px auto 0;  
+    border-radius: 4px;
+}
+
+.left-side,.right-side{
+    display:grid;
+    gap:5px;
+    color:white;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.left-side > div,.right-side > div{
+    padding:1px;
+}
+
+h1{
+    border: 3px solid white;
+    background-color: purple;
+    color: black;
+    text-align: center;
+    padding: 50px;
+    border-radius: 4px;
+}
+
+.image{
+    border: 3px solid white;
+    background-color: purple;
+    border-radius: 4px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1{
+    border: 3px solid;
+    border-radius: 4px;
+    display: block;
+    line-height: 0;
+}
+
+.div2{
+    border: 3px solid;
+    border-radius: 4px;
+    display: block;
+    line-height: 0;
+}
+
+.div3{
+    border: 3px solid;
+    border-radius: 4px;
+    display: block;
+    line-height: 0;
+}
